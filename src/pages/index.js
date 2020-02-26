@@ -16,6 +16,13 @@ import material from '../assets/images/material-ui.svg'
 import gatsby from '../assets/images/gatsby.svg'
 import element from '../assets/images/element.svg'
 
+import pic9 from '../assets/images/edicionycolor.png'
+import pic10 from '../assets/images/tecnifajas.png'
+import pic11 from '../assets/images/steelser.png'
+import pic12 from '../assets/images/ahsecoperu.png'
+import pic13 from '../assets/images/tec-academy.png'
+import pic14 from '../assets/images/barqueros.png'
+
 const sections = [
 	{ id: 'top', name: 'Intro', icon: 'fa-home' },
 	{ id: 'portfolio', name: 'Proyectos', icon: 'fa-th' },
@@ -35,7 +42,7 @@ const IndexPage = () => (
 						<h2 className="alt">
 							Hola! Me llamo <strong>Paulo !</strong>
 							<br />
-							Frontend Developer
+							Y Soy Frontend Developer
 						</h2>
 						<p>He realizado muchos proyectos, descubrelos.</p>
 					</header>
@@ -53,13 +60,11 @@ const IndexPage = () => (
 			<section id="portfolio" className="two">
 				<div className="container">
 					<header>
-						<h2>Portfolio</h2>
+						<h2>Proyectos</h2>
 					</header>
 
 					<p>
-						Life will feel it is always a great need for eu valley, the valley CNN ridiculous smile at any
-						time chat mainstream clinical homes. Mauris floor was very warm and we need it. One customer now
-						nibh Bureau dark pools behavior.
+                        A lo largo de los años he formado parte de grandiosos equipos de desarrollo, con los cuales hemos creado soluciones para diferentes clientes. Aqui muestro algunos de nuestros trabajos.
 					</p>
 
 					<div className="row">
@@ -80,6 +85,22 @@ const IndexPage = () => (
 									<h3>Universidad Wiener</h3>
 								</header>
 							</article>
+                            <article className="item">
+								<a href="http://www.edicionycolor.com.pe/" target="_blank" className="image fit">
+									<img src={pic9} alt="" />
+								</a>
+								<header>
+									<h3>Edicion y Color</h3>
+								</header>
+							</article>
+                            <article className="item">
+								<a href="http://www.ahsecoperu.com.pe/" target="_blank" className="image fit">
+									<img src={pic12} alt="" />
+								</a>
+								<header>
+									<h3>Ahsecoperu</h3>
+								</header>
+							</article>
 						</div>
 						<div className="col-4 col-12-mobile">
 							<article className="item">
@@ -98,6 +119,22 @@ const IndexPage = () => (
 									<h3>MsInmobiliaria</h3>
 								</header>
 							</article>
+							<article className="item">
+								<a href="https://www.tecnifajas.com/" target="_blank" className="image fit">
+									<img src={pic10} alt="" />
+								</a>
+								<header>
+									<h3>Tecnifajas</h3>
+								</header>
+							</article>
+							<article className="item">
+								<a href="https://tec-academy.netlify.com/" target="_blank" className="image fit">
+									<img src={pic13} alt="" />
+								</a>
+								<header>
+									<h3>Tec Academy</h3>
+								</header>
+							</article>
 						</div>
 						<div className="col-4 col-12-mobile">
 							<article className="item">
@@ -114,6 +151,22 @@ const IndexPage = () => (
 								</a>
 								<header>
 									<h3>Datathon Belcorp</h3>
+								</header>
+							</article>
+							<article className="item">
+								<a href="https://www.steelser.com.pe/" target="_blank" className="image fit">
+									<img src={ pic11 } alt="" />
+								</a>
+								<header>
+									<h3>Steelser</h3>
+								</header>
+							</article>
+                            <article className="item">
+								<a href="http://www.barqueros.com/" target="_blank" className="image fit">
+									<img src={pic14} alt="" />
+								</a>
+								<header>
+									<h3>Barqueros</h3>
 								</header>
 							</article>
 						</div>

@@ -3,15 +3,16 @@ import React from 'react';
 export default function TopNav({ title, onMenuClick = () => {} }) {
 	return (
 		<div id="headerToggle">
-			<div
-				className="toggle"
+			<a
+                className="toggle"
+                href="#"
 				onClick={(e) => {
 					e.preventDefault();
 					onMenuClick();
 				}}
 			>
 				{' '}
-			</div>
+			</a>
 		</div>
 	);
 }
