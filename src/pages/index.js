@@ -4,31 +4,17 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/britanico.png';
-import pic3 from '../assets/images/uwiener.png';
-import pic4 from '../assets/images/piramide.png';
-import pic5 from '../assets/images/msinmobiliaria.png';
-import pic6 from '../assets/images/finisterre.png';
-import pic7 from '../assets/images/datathon.png';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
-
 import sass from '../assets/images/sass.svg'
 import stylus from '../assets/images/stylus.svg'
 import react from '../assets/images/react.svg'
 import angular from '../assets/images/angular.svg'
-import jquery from '../assets/images/jquery.png'
-import vue from '../assets/images/vue.png'
 import graphql from '../assets/images/graphql.svg'
-import apollo from '../assets/images/apollo.png'
-import html from '../assets/images/html.png'
 import nuxt from '../assets/images/nuxt.svg'
-import primeng from '../assets/images/primeng.png'
 import material from '../assets/images/material-ui.svg'
 import gatsby from '../assets/images/gatsby.svg'
-import git from '../assets/images/git.png'
 import element from '../assets/images/element.svg'
-import okta from '../assets/images/okta.png'
 
 const sections = [
 	{ id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -80,7 +66,7 @@ const IndexPage = () => (
 						<div className="col-4 col-12-mobile">
 							<article className="item">
 								<a href="https://www.britanico.edu.pe/"  target="_blank" className="image fit">
-									<img src={pic2} alt="" />
+									<img src="http://tinyimg.io/i/pobPPcE.png" alt="" />
 								</a>
 								<header>
 									<h3>Britanico</h3>
@@ -88,7 +74,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="http://www.uwiener.edu.pe/" target="_blank" className="image fit">
-									<img src={pic3} alt="" />
+									<img src="http://tinyimg.io/i/oMzeD4Z.png" alt="" />
 								</a>
 								<header>
 									<h3>Universidad Wiener</h3>
@@ -98,7 +84,7 @@ const IndexPage = () => (
 						<div className="col-4 col-12-mobile">
 							<article className="item">
 								<a href="https://www.ladrillospiramide.com/" target="_blank" className="image fit">
-									<img src={pic4} alt="" />
+									<img src="http://tinyimg.io/i/dilgXin.png" alt="" />
 								</a>
 								<header>
 									<h3>Ladrillos Piramide</h3>
@@ -106,7 +92,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="http://msinmobiliaria.pe/" target="_blank" className="image fit">
-									<img src={pic5} alt="" />
+									<img src="http://tinyimg.io/i/IyoAfTl.png" alt="" />
 								</a>
 								<header>
 									<h3>MsInmobiliaria</h3>
@@ -116,7 +102,7 @@ const IndexPage = () => (
 						<div className="col-4 col-12-mobile">
 							<article className="item">
 								<a href="https://finisterre.com.pe/" target="_blank" className="image fit">
-									<img src={pic6} alt="" />
+									<img src="http://tinyimg.io/i/2trdjzv.png" alt="" />
 								</a>
 								<header>
 									<h3>Mapfre Finisterre</h3>
@@ -124,7 +110,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="https://datathon-belcorp.netlify.com/" target="_blank" className="image fit">
-									<img src={pic7} alt="" />
+									<img src="http://tinyimg.io/i/PZUZodj.png" alt="" />
 								</a>
 								<header>
 									<h3>Datathon Belcorp</h3>
@@ -167,11 +153,11 @@ const IndexPage = () => (
                         <h4 className="title-agency" >StaffCreativa <span>(Ago - 2016 / Mar -  2018)</span> </h4>
                         <p  className="subtitle-agency" >Agencia de marketing digital y desarrollo de software.</p>
                         <div className="techrow" >
-                            <img  src={html} width="12%"  />
+                            <img  src="http://tinyimg.io/i/98xjrS8.png" width="12%"  />
                             <span class="icon fa-plus"></span>
                             <img  src={stylus}  width="15%"  />
                             <span class="icon fa-plus"></span>
-                            <img  src={jquery} width="30%" />
+                            <img  src="http://tinyimg.io/i/QwOeoeu.png" width="30%" />
                         </div>
                     </article>
                     <article>
@@ -182,7 +168,7 @@ const IndexPage = () => (
                             <span class="icon fa-plus"></span>
                             <img  src={sass}  width="12%"  />
                             <span class="icon fa-plus"></span>
-                            <img  src={vue}  width="12%" />
+                            <img  src="http://tinyimg.io/i/uhirUDt.png"  width="12%" />
                             <span class="icon fa-plus"></span>
                             <img  src={nuxt}  width="25%" />
                         </div>
@@ -195,7 +181,7 @@ const IndexPage = () => (
                             <span class="icon fa-plus"></span>
                             <img  src={sass} width="12%"  />
                             <span class="icon fa-plus"></span>
-                            <img  src={primeng}   width="30%"  />
+                            <img  src="http://tinyimg.io/i/4GWKgrj.png"   width="30%"  />
                         </div>
                         <div className="techrow" >
                             <img  src={react}  width="12%"  />
@@ -210,10 +196,10 @@ const IndexPage = () => (
                     <article>
                         <h4 className="title-agency">Freelancer</h4>
                         <div className="techrow" >
-                            <img  src={apollo}  width="30%" />
-                            <img  src={git}  width="20%" />
+                            <img  src="http://tinyimg.io/i/s85Mght.png"  width="30%" />
+                            <img  src="http://tinyimg.io/i/p28gP1z.png"  width="20%" />
                             <img  src={element}  width="20%" />
-                            <img  src={okta}  width="15%" />
+                            <img  src="http://tinyimg.io/i/0tyfXQv.png"  width="15%" />
                         </div>
                     </article>
 					
