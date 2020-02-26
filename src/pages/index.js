@@ -40,7 +40,7 @@ const IndexPage = () => (
 				<div className="container">
 					<header>
 						<h2 className="alt">
-							Hola! Me llamo <strong>Paulo !</strong>
+							Hola, Me llamo <strong>Paulo !</strong>
 							<br />
 							Soy Frontend Developer
 						</h2>
@@ -50,7 +50,7 @@ const IndexPage = () => (
 					<footer>
 						<Scroll type="id" element={'portfolio'}>
 							<a href="#portfolio" className="button">
-								Show me
+								Ver más
 							</a>
 						</Scroll>
 					</footer>
@@ -185,12 +185,13 @@ const IndexPage = () => (
 					</a>
 
                     <p>
-						Developers football competition in diameter big price to layer the pot. Chavez ultricies care
-						who wants to CNN. Lobortis elementum aliquet eget a den of which they do not hold it in hatred
-						developers nor the mountains of the deposit slip. The element of time, sem ante ullamcorper
-						dolor nulla quam placerat viverra environment is not with our customers. Free makeup and skirt
-						until the mouse or partners or to decorate each targeted.
-					</p>
+                            Descubrí mi pasion por el desarollo de Software en el año 2015, mientras cursaba la carrera de Ingenieria de sistemas en la  
+                            <strong> Universidad Inca Garcilazo de la Vega.</strong>
+                            <br />
+                            Las tecnologias con las que trabajo las aprendí llevando cursos online , leyendo articulos , retandome constantemente y practicando bastante. 
+
+                            Me mantengo en constante aprendizaje porque considero que constantemente surgen equipos con nuevas ideas y mejores formas de poder resolver los retos que nos plantean los diferentes proyectos. 
+                    </p>
 
 
 				</div>
@@ -262,14 +263,11 @@ const IndexPage = () => (
 			<section id="contact" className="five">
 				<div className="container">
 					<header>
-						<h2>Contact</h2>
+						<h2>Contacto</h2>
 					</header>
 
 					<p>
-						The element of time, sem ante ullamcorper dolor nulla quam placerat viverra environment is not
-						with our customers. Free makeup and skirt until the mouse. Japan this innovative and ultricies
-						carton salad clinical ridiculous now passes from enhanced. Mauris pot innovative care for my
-						pain.
+						¿Tienes alguna idea para cambiar el mundo ?  <br /> Ponte en contacto conmigo , te responderé a la brevedad.
 					</p>
 
 					<form method="post" action="#">
