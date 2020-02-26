@@ -441,6 +441,7 @@ article {
         img {
             width: 120px;
             height: 120px;
+            border-radius: 50%;
         }
     }
     &.fit {
@@ -852,7 +853,24 @@ button,
         }
         &.one {
             background-color: #81918E;
-            background-image: url('../images/banner.jpg');
+            background-image: url('../images/banner2.jpg');
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                background: #000;
+                left: 0;
+                opacity: 0.4;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+            header {
+                position: relative;
+            }
         }
         &.two {
             background-color: #f5fafa;

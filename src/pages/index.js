@@ -42,7 +42,7 @@ const IndexPage = () => (
 						<h2 className="alt">
 							Hola! Me llamo <strong>Paulo !</strong>
 							<br />
-							Y Soy Frontend Developer
+							Soy Frontend Developer
 						</h2>
 						<p>He realizado muchos proyectos, descubrelos.</p>
 					</header>
