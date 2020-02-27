@@ -186,7 +186,7 @@ const IndexPage = () => (
                             <br />
                             Las tecnologias con las que trabajo las aprendí llevando cursos online , leyendo articulos , retandome constantemente y practicando bastante. 
 
-                            Me mantengo en constante aprendizaje porque considero que constantemente surgen equipos con nuevas ideas y mejores formas de poder resolver los retos que nos plantean los diferentes proyectos. 
+                            Me mantengo en constante aprendizaje porque considero todo el tiempo estan surgiendo equipos con nuevas ideas y mejores formas de poder resolver los retos que nos plantean los diferentes proyectos. 
                     </p>
 
 
