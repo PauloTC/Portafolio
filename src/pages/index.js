@@ -180,10 +180,6 @@ const IndexPage = () => (
 						<h2>Acerca de mí</h2>
 					</header>
 
-                    <a href="/#" className="image featured">
-						<img src={pic8} alt="" />
-					</a>
-
                     <p>
                             Descubrí mi pasion por el desarollo de Software en el año 2015, mientras cursaba la carrera de Ingenieria de sistemas en la  
                             <strong> Universidad Inca Garcilazo de la Vega.</strong>
@@ -248,7 +244,7 @@ const IndexPage = () => (
                         </div>
                     </article>
                     <article>
-                        <h4 className="title-agency">Freelancer</h4>
+                        <h4 className="title-agency">Otras tecnologias</h4>
                         <div className="techrow" >
                             <img  src="http://tinyimg.io/i/s85Mght.png"  width="30%" />
                             <img  src="http://tinyimg.io/i/p28gP1z.png"  width="20%" />
