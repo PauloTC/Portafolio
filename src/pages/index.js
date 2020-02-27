@@ -269,16 +269,16 @@ const IndexPage = () => (
 					<form method="post" action="#">
 						<div className="row">
 							<div className="col-6 col-12-mobile">
-								<input type="text" name="name" placeholder="Name" />
+								<input type="text" name="name" placeholder="Nombre" />
 							</div>
 							<div className="col-6 col-12-mobile">
 								<input type="text" name="email" placeholder="Email" />
 							</div>
 							<div className="col-12">
-								<textarea name="message" placeholder="Message" />
+								<textarea name="message" placeholder="Mensaje" />
 							</div>
 							<div className="col-12">
-								<input type="submit" value="Send Message" />
+								<input type="submit" value="Enviar Mensaje" />
 							</div>
 						</div>
 					</form>
