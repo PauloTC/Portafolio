@@ -877,9 +877,42 @@ button,
         }
         &.three {
             background-color: #ecf1f1;
+            // background-color: #81918E;
         }
         &.four {
             background-color: #e8edec;
+            .formation_list-container {
+                padding-left: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                section {
+                    margin-bottom: 0;
+                }
+                li {
+                    padding-left: 0;
+                    text-align: left;
+                }
+                span {
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+            .formation_list {
+                list-style: none;
+                margin-bottom: 0;
+                padding-left: 0;
+            }
+            h4 {
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+        &.five {
+            background-color: #f5fafa;
+        }
+        &.six {
+            background-color: #ecf1f1;
         }
     }
 }

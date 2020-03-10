@@ -27,6 +27,7 @@ const sections = [
 	{ id: 'top', name: 'Intro', icon: 'fa-home' },
 	{ id: 'portfolio', name: 'Proyectos', icon: 'fa-th' },
 	{ id: 'about', name: 'Sobre Mi', icon: 'fa-user' },
+	{ id: 'forma', name: 'Formación', icon: 'fa-graduation-cap' },
 	{ id: 'skills', name: 'Experiencia', icon: 'fa-arrow-up' },
 	{ id: 'contact', name: 'Contacto', icon: 'fa-envelope' }
 ];
@@ -193,7 +194,77 @@ const IndexPage = () => (
 				</div>
 			</section>
 
-            <section id="skills" className="four">
+			<section id="forma" className="four">
+				<div className="container">
+					<header>
+						<h2>Formación</h2>
+					</header>
+					
+                   <div className="formation_list-container"  >
+					   <section>
+							<span>
+								<h4> <a href="https://www.uigv.edu.pe/wp/" > Universidad Inca Garcilazo de la Vega </a> </h4>
+								<ul className="formation_list" >
+									<li>- Ingenieria de Sistemas</li>
+								</ul>
+							</span>				
+							<span>
+								<h4> <a href="https://platzi.com/" >Platzi </a></h4>
+								<ul className="formation_list">
+									<li>- Programación básica</li>
+									<li>- Git / Github</li>
+									<li>- Sass</li>
+									<li>- Flexbox</li>
+									<li>- Grid Layout</li>
+									<li>- Javascript</li>
+								</ul>
+							</span>
+							<span>
+								<h4> <a href="https://mead.io/" >Andrew Mead</a></h4>
+								<ul className="formation_list" >
+									<li>- Gatsby  (React + Graphql) </li>
+								</ul>
+							</span>
+							<span>
+								<h4> <a href="https://www.udemy.com/" > Udemy</a></h4>
+								<ul className="formation_list">
+									<li>- React + Graphql + Apollo + MongoDB</li>
+								</ul>
+							</span>
+					   </section>
+					   <section>
+							<span>
+								<h4> <a href="https://wesbos.com/" >WesBos</a></h4>
+								<ul className="formation_list" >
+									<li>- Javascript 30</li>
+									<li>- React Beginner</li>
+									<li>- Grid Layout</li>
+								</ul>
+							</span>
+							<span>
+								<h4> <a href="https://carlosazaustre.es/" >Carlos Azaustre</a></h4>
+								<ul className="formation_list" >
+									<li>- React</li>
+									<li>- Redux</li>
+									<li>- React Native</li>
+								</ul>
+							</span>
+						
+							<span>
+								<h4> <a href="https://vueschool.io/" >Vue School</a></h4>
+								<ul className="formation_list">
+									<li>- Vue Mastery Class</li>
+									<li>- Test whit Javascript</li>
+									<li>- Test whit Jest</li>
+								</ul>
+							</span>
+							
+					   </section>
+				   </div>
+				</div>
+			</section>
+
+            <section id="skills" className="five">
 				<div className="container">
 					<header>
 						<h2>Experiencia</h2>
@@ -256,7 +327,7 @@ const IndexPage = () => (
 				</div>
 			</section>
 
-			<section id="contact" className="five">
+			<section id="contact" className="six">
 				<div className="container">
 					<header>
 						<h2>Contacto</h2>
