@@ -1217,6 +1217,17 @@ button,
     #main {
         >section {
             padding: 2em 0;
+            &.four {
+                .formation_list-container li {
+                    text-align: center;
+                }
+                h4 {
+                    text-align: center;
+                }
+            }
+            section {
+                width: 100%;
+            }
         }
         section {
             &.cover {
@@ -1225,6 +1236,12 @@ button,
                     padding: 0 1em;
                 }
             }
+        }
+        .subtitle-agency {
+            text-align: center;
+        }
+        .title-agency {
+            text-align: center;
         }
     }
     /* Footer */
