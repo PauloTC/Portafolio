@@ -20,6 +20,13 @@ module.exports = {
             },
         },
         'gatsby-plugin-sass',
-        'gatsby-plugin-offline',
+        {
+            resolve: `gatsby-plugin-offline`,
+            options: {
+              workboxConfig: {
+                importWorkboxFrom: `cdn`,
+              },
+            },
+          },
     ],
 };

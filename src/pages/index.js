@@ -42,9 +42,8 @@ const IndexPage = () => (
 					<header>
 						<h2 className="alt">
 							Hola, Me llamo <strong>Paulo !</strong>
-							<br />
-							Soy Frontend Developer
 						</h2>
+						<h3>Frontend Developer en <a href="http://www.hundred.com.pe/" >  <strong>GFI Perú</strong> </a></h3>
 						<p>He realizado muchos proyectos, descubrelos.</p>
 					</header>
 
@@ -319,8 +318,10 @@ const IndexPage = () => (
                         <div className="techrow" >
                             <img  src="http://tinyimg.io/i/s85Mght.png"  width="30%" />
                             <img  src="http://tinyimg.io/i/p28gP1z.png"  width="20%" />
-                            <img  src={element}  width="20%" />
-                            <img  src="http://tinyimg.io/i/0tyfXQv.png"  width="15%" />
+                            <img  src="https://i.ibb.co/tC2fXPR/hasura.png"  width="25%" />
+                        </div>
+                        <div className="techrow" >
+                            <img  src="https://i.ibb.co/GP0RbWW/auth0-logo-whitebg.png"  width="25%" />
                         </div>
                     </article>
 					
