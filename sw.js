@@ -11,8 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,20 +25,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-79fd40c9c8c78b228113.js"
+    "url": "webpack-runtime-360c5728eac4f5d9f29e.js"
   },
   {
-    "url": "commons-5eb253ccea1ecea62925.js"
+    "url": "commons-bf7b8a8ca7ca6b06be40.js"
   },
   {
-    "url": "app-0de271fdaa75c1b8d002.js"
+    "url": "app-9c945ed1702bd70f1838.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-3b532cfc3168f6f6172d.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b5483d7ad45583ac937d099e0e9c0721"
+    "revision": "23a83e633ba3d296aeaf4eed7775d988"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -47,7 +46,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "78bb252107ec38f54ae81b87e0fa7737"
+    "revision": "52b05eca250afd4c7e1e62da77250b83"
   },
   {
     "url": "manifest.webmanifest",
@@ -75,7 +74,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/Portafolio/app-0de271fdaa75c1b8d002.js`))) {
+  if (!resources || !(await caches.match(`/Portafolio/app-9c945ed1702bd70f1838.js`))) {
     return await fetch(event.request)
   }
 
