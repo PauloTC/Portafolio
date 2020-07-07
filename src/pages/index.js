@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
-import SideBar from '../components/SideBar';
+import SideBar from '../components/sidebar';
 
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
