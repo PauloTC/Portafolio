@@ -43,7 +43,8 @@ const IndexPage = () => (
 						<h2 className="alt">
 							Hola, Me llamo <strong>Paulo !</strong>
 						</h2>
-						<h3>Frontend Developer en <a href="http://www.hundred.com.pe/" >  <strong>GFI Perú</strong> </a></h3>
+						<h3>Frontend Developer en</h3>
+						<h3> <a href="http://www.hundred.com.pe/" >     <strong>GFI Perú</strong> </a></h3>
 						<p>He realizado muchos proyectos, descubrelos.</p>
 					</header>
 

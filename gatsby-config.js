@@ -1,7 +1,6 @@
 const config = require('./config');
 
 module.exports = {
-    pathPrefix: config.pathPrefix,
     siteMetadata: {
         title: config.siteTitle,
     },
@@ -20,11 +19,6 @@ module.exports = {
             },
         },
         'gatsby-plugin-sass',
-        {
-            resolve: `gatsby-plugin-offline`,
-            options: {
-                importWorkboxFrom: `cdn`,
-              },
-          },
+        `gatsby-plugin-offline`
     ],
 };
