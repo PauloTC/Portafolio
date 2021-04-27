@@ -22,6 +22,10 @@ import pic11 from '../assets/images/steelser.png'
 import pic12 from '../assets/images/ahsecoperu.png'
 import pic13 from '../assets/images/tec-academy.png'
 import pic14 from '../assets/images/barqueros.png'
+import pic15 from '../assets/images/uneteabelcorp.png'
+import pic16 from '../assets/images/somosbelcorp.png'
+import pic17 from '../assets/images/agustinmerino.png'
+
 
 const sections = [
 	{ id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -43,8 +47,8 @@ const IndexPage = () => (
 						<h2 className="alt">
 							Hola, Me llamo <strong>Paulo !</strong>
 						</h2>
-						<h3>Frontend Developer en</h3>
-						<h3> <a href="http://www.hundred.com.pe/" >     <strong>GFI Perú</strong> </a></h3>
+						<h3>Frontend Developer</h3>
+						<h3> <strong> Freelancer </strong></h3>
 						<p>He realizado muchos proyectos, descubrelos.</p>
 					</header>
 
@@ -79,6 +83,14 @@ const IndexPage = () => (
 								</header>
 							</article>
 							<article className="item">
+								<a href="https://uneteabelcorp.com/pe?vieneDe=Directo" target="_blank" className="image fit">
+									<img src={pic15} alt="unete" />
+								</a>
+								<header>
+									<h3>Unete a Belcorp</h3>
+								</header>
+							</article>
+							<article className="item">
 								<a href="http://www.uwiener.edu.pe/" target="_blank" className="image fit">
 									<img src="http://tinyimg.io/i/oMzeD4Z.png" alt="" />
 								</a>
@@ -102,8 +114,17 @@ const IndexPage = () => (
 									<h3>Ahsecoperu</h3>
 								</header>
 							</article>
+							
 						</div>
 						<div className="col-4 col-12-mobile">
+							<article className="item">
+								<a href="https://uneteabelcorp.com/pe?vieneDe=Directo" target="_blank" className="image fit">
+									<img src={pic16} alt="belcorp" />
+								</a>
+								<header>
+									<h3>Somos Belcorp</h3>
+								</header>
+							</article>
 							<article className="item">
 								<a href="https://www.ladrillospiramide.com/" target="_blank" className="image fit">
 									<img src="http://tinyimg.io/i/dilgXin.png" alt="" />
@@ -139,14 +160,6 @@ const IndexPage = () => (
 						</div>
 						<div className="col-4 col-12-mobile">
 							<article className="item">
-								<a href="https://finisterre.com.pe/" target="_blank" className="image fit">
-									<img src="http://tinyimg.io/i/2trdjzv.png" alt="" />
-								</a>
-								<header>
-									<h3>Mapfre Finisterre</h3>
-								</header>
-							</article>
-							<article className="item">
 								<a href="https://datathon-belcorp.netlify.com/" target="_blank" className="image fit">
 									<img src="http://tinyimg.io/i/PZUZodj.png" alt="" />
 								</a>
@@ -154,6 +167,15 @@ const IndexPage = () => (
 									<h3>Datathon Belcorp</h3>
 								</header>
 							</article>
+							<article className="item">
+								<a href="https://finisterre.com.pe/" target="_blank" className="image fit">
+									<img src="http://tinyimg.io/i/2trdjzv.png" alt="" />
+								</a>
+								<header>
+									<h3>Mapfre Finisterre</h3>
+								</header>
+							</article>
+							
 							<article className="item">
 								<a href="https://www.steelser.com.pe/" target="_blank" className="image fit">
 									<img src={ pic11 } alt="" />
@@ -164,10 +186,18 @@ const IndexPage = () => (
 							</article>
                             <article className="item">
 								<a href="http://www.barqueros.com/" target="_blank" className="image fit">
-									<img src={pic14} alt="" />
+									<img src={pic14} alt="barqueros" />
 								</a>
 								<header>
 									<h3>Barqueros</h3>
+								</header>
+							</article>
+							<article className="item">
+								<a href="https://agustinmerino.com.pe/" target="_blank" className="image fit">
+									<img src={pic17} alt="merino" />
+								</a>
+								<header>
+									<h3>Agustin Merino</h3>
 								</header>
 							</article>
 						</div>
@@ -283,7 +313,7 @@ const IndexPage = () => (
                     </article>
                     <article>
                         <h4 className="title-agency">Tismart <span>(May - 2018 / Dic -  2018)</span> </h4>
-                        <p  className="subtitle-agency" >Equipo de desarollo de software.</p>
+                        <p  className="subtitle-agency" >Frontend Developer.</p>
                         <div className="techrow" >
                             <h2>Pug</h2>
                             <span class="icon fa-plus"></span>
@@ -295,8 +325,8 @@ const IndexPage = () => (
                         </div>
                     </article>
                     <article>
-                        <h4 className="title-agency">GFI Perú - Hundred SAC <span>(Feb - 2019 / Actualidad)</span></h4>
-                        <p  className="subtitle-agency" >Equipo de desarollo de software.</p>
+                        <h4 className="title-agency">GFI Perú - Hundred SAC <span>(Feb - 2019 / Marzo - 2021)</span></h4>
+                        <p  className="subtitle-agency" >Frontend Developer.</p>
                         <div className="techrow" >
                             <img  src={angular}  width="12%" />
                             <span class="icon fa-plus"></span>
