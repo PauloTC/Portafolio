@@ -49,16 +49,22 @@ const IndexPage = () => (
 						</h2>
 						<h3>Frontend Developer</h3>
 						<h3> <strong> Freelancer </strong></h3>
-						<p>He realizado muchos proyectos, descubrelos.</p>
+						<p>He realizado muchos proyectos, descúbrelos.</p>
 					</header>
-
-					<footer>
-						<Scroll type="id" element={'portfolio'}>
-							<a href="#portfolio" className="button">
-								Ver más
+					<div className ="container-button">
+						<footer>
+							<Scroll type="id" element={'portfolio'}>
+								<a href="#portfolio" className="button">
+									Ver más
+								</a>
+							</Scroll>
+						</footer>
+						<footer>
+							<a href="https://smallpdf.com/es/file#s=c7169c16-8fb7-4e24-84c3-06d34718d74c" className="button">
+								Descargar CV
 							</a>
-						</Scroll>
-					</footer>
+						</footer>
+					</div>
 				</div>
 			</section>
 
@@ -84,7 +90,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="https://uneteabelcorp.com/pe?vieneDe=Directo" target="_blank" className="image fit">
-									<img src={pic15} alt="unete" />
+									<img src="https://i.ibb.co/Rb4jNYr/uneteabelcorp.png" alt="unete" />
 								</a>
 								<header>
 									<h3>Unete a Belcorp</h3>
@@ -100,7 +106,7 @@ const IndexPage = () => (
 							</article>
                             <article className="item">
 								<a href="http://www.edicionycolor.com.pe/" target="_blank" className="image fit">
-									<img src={pic9} alt="" />
+									<img src="https://i.ibb.co/TRVWCT0/edicionycolor.png" alt="" />
 								</a>
 								<header>
 									<h3>Edicion y Color</h3>
@@ -108,7 +114,7 @@ const IndexPage = () => (
 							</article>
                             <article className="item">
 								<a href="http://www.ahsecoperu.com.pe/" target="_blank" className="image fit">
-									<img src={pic12} alt="" />
+									<img src="https://i.ibb.co/G3VYrB0/ahsecoperu.png" alt="" />
 								</a>
 								<header>
 									<h3>Ahsecoperu</h3>
@@ -119,7 +125,7 @@ const IndexPage = () => (
 						<div className="col-4 col-12-mobile">
 							<article className="item">
 								<a href="https://uneteabelcorp.com/pe?vieneDe=Directo" target="_blank" className="image fit">
-									<img src={pic16} alt="belcorp" />
+									<img src="https://i.ibb.co/R366kx6/somosbelcorp.png" alt="belcorp" />
 								</a>
 								<header>
 									<h3>Somos Belcorp</h3>
@@ -143,7 +149,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="https://www.tecnifajas.com/" target="_blank" className="image fit">
-									<img src={pic10} alt="" />
+									<img src="https://i.ibb.co/3vk0N47/tecnifajas.png" alt="" />
 								</a>
 								<header>
 									<h3>Tecnifajas</h3>
@@ -151,7 +157,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="https://tec-academy.netlify.com/" target="_blank" className="image fit">
-									<img src={pic13} alt="" />
+									<img src="https://i.ibb.co/VMXPM8Z/tec-academy.png" alt="" />
 								</a>
 								<header>
 									<h3>Tec Academy</h3>
@@ -178,7 +184,7 @@ const IndexPage = () => (
 							
 							<article className="item">
 								<a href="https://www.steelser.com.pe/" target="_blank" className="image fit">
-									<img src={ pic11 } alt="" />
+									<img src="https://i.ibb.co/F4hnqgm/steelser.png" alt="" />
 								</a>
 								<header>
 									<h3>Steelser</h3>
@@ -186,7 +192,7 @@ const IndexPage = () => (
 							</article>
                             <article className="item">
 								<a href="http://www.barqueros.com/" target="_blank" className="image fit">
-									<img src={pic14} alt="barqueros" />
+									<img src="https://i.ibb.co/hs1WCjW/barqueros.png" alt="barqueros" />
 								</a>
 								<header>
 									<h3>Barqueros</h3>
@@ -194,7 +200,7 @@ const IndexPage = () => (
 							</article>
 							<article className="item">
 								<a href="https://agustinmerino.com.pe/" target="_blank" className="image fit">
-									<img src={pic17} alt="merino" />
+									<img src="https://i.ibb.co/fn1vQ6G/agustinmerino.png" alt="merino" />
 								</a>
 								<header>
 									<h3>Agustin Merino</h3>
@@ -212,7 +218,7 @@ const IndexPage = () => (
 					</header>
 
                     <p>
-                            Descubrí mi pasion por el desarollo de Software en el año 2015, mientras cursaba la carrera de Ingenieria de sistemas en la  
+                            Descubrí mi pasion por el desarrollo de Software mientras cursaba la carrera de Ingenieria de sistemas en la  
                             <strong> Universidad Inca Garcilazo de la Vega.</strong>
                             <br />
                             Las tecnologias con las que trabajo las aprendí llevando cursos online , leyendo articulos , retandome constantemente y practicando bastante. 

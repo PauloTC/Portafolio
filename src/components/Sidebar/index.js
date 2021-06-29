@@ -4,7 +4,7 @@ import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import config from '../../../config';
-const pic = require('../../assets/images/profile.jpg');
+const pic = "https://i.ibb.co/VphVfNz/127661164-3658820260843534-4251965232737846036-n.jpg"
 
 export default function SideBar({ sections = [] }) {
 	const [ headerOpen, toggleHeader ] = useState(false);
