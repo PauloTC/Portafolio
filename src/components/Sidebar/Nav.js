@@ -1,6 +1,7 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from '../Scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 export default function Nav({ sections = [] }) {
   return (
@@ -16,7 +17,8 @@ export default function Nav({ sections = [] }) {
               <li key={s.id}>
                 <Scroll type="id" element={s.id}>
                   <a href={`#${s.id}`} id="top-link">
-                    <span className={`icon ${s.icon}`}>{s.name}</span>
+                    <span className='icon'> <i className={`fas ${s.icon}`} ></i> {s.name}</span>
+                    
                   </a>
                 </Scroll>
               </li>

@@ -27,9 +27,9 @@ module.exports = {
             url: 'https://www.facebook.com/paulo.tejada.7',
         },
         {
-            icon: 'fa-envelope-o',
-            name: 'Email',
-            url: 'mailto:Paulo.Tejada@outlook.com',
+            icon: 'fa-linkedin',
+            name: 'Linkedin',
+            url: 'https://www.linkedin.com/in/paulotejadacasas/',
         },
     ],
 };

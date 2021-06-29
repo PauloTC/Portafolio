@@ -49,6 +49,7 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
+              <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' ></link>
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               {children}

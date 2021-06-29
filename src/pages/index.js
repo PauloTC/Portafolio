@@ -16,17 +16,6 @@ import material from '../assets/images/material-ui.svg'
 import gatsby from '../assets/images/gatsby.svg'
 import element from '../assets/images/element.svg'
 
-import pic9 from '../assets/images/edicionycolor.png'
-import pic10 from '../assets/images/tecnifajas.png'
-import pic11 from '../assets/images/steelser.png'
-import pic12 from '../assets/images/ahsecoperu.png'
-import pic13 from '../assets/images/tec-academy.png'
-import pic14 from '../assets/images/barqueros.png'
-import pic15 from '../assets/images/uneteabelcorp.png'
-import pic16 from '../assets/images/somosbelcorp.png'
-import pic17 from '../assets/images/agustinmerino.png'
-
-
 const sections = [
 	{ id: 'top', name: 'Intro', icon: 'fa-home' },
 	{ id: 'portfolio', name: 'Proyectos', icon: 'fa-th' },
@@ -41,7 +30,7 @@ const IndexPage = () => (
 		<SideBar sections={sections} />
 
 		<div id="main">
-			<section id="top" className="one dark cover">
+			<section id="top"  name='test1' className="one dark cover">
 				<div className="container">
 					<header>
 						<h2 className="alt">
@@ -303,9 +292,9 @@ const IndexPage = () => (
               <p  className="subtitle-agency" >Agencia de marketing digital y desarrollo de software.</p>
               <div className="techrow" >
                   <img  src="http://tinyimg.io/i/98xjrS8.png" width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={stylus}  width="15%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src="http://tinyimg.io/i/QwOeoeu.png" width="30%" />
               </div>
           </article>
@@ -314,11 +303,11 @@ const IndexPage = () => (
               <p  className="subtitle-agency" >Frontend Developer.</p>
               <div className="techrow" >
                   <h2>Pug</h2>
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={sass}  width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src="http://tinyimg.io/i/uhirUDt.png"  width="12%" />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={nuxt}  width="25%" />
               </div>
           </article>
@@ -327,18 +316,18 @@ const IndexPage = () => (
               <p  className="subtitle-agency" >Frontend Developer.</p>
               <div className="techrow" >
                   <img  src={angular}  width="12%" />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={sass} width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src="http://tinyimg.io/i/4GWKgrj.png"   width="30%"  />
               </div>
               <div className="techrow" >
                   <img  src={react}  width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={gatsby}  width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={material}  width="12%"  />
-                  <span class="icon fa-plus"></span>
+                  <span class="fas fa-plus"></span>
                   <img  src={graphql}  width="12%" />
               </div>
           </article>
@@ -363,7 +352,7 @@ const IndexPage = () => (
 					</header>
 
 					<p>
-						¿Tienes alguna idea para cambiar el mundo ?  <br /> Ponte en contacto conmigo , te responderé a la brevedad.
+						Ponte en contacto conmigo , te responderé a la brevedad.
 					</p>
 
 					<form method="post" action="#">

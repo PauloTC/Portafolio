@@ -4,7 +4,6 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -651,7 +650,7 @@ button,
     text-decoration: none;
     &:before {
         display: inline-block;
-        font-family: FontAwesome;
+        font-family: "Font Awesome 5 Free";
         font-size: 1.25em;
         text-decoration: none;
         font-style: normal;
@@ -768,7 +767,9 @@ button,
                 'none');
                 span {
                     position: relative;
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                     font-size: 0.8em;
                     &:before {
                         position: absolute;
@@ -1266,4 +1267,9 @@ button,
     footer:nth-child(2) {
         margin-left: 25px;
     }
+}
+
+
+.footer-social a{
+  font-size: 30px;
 }
