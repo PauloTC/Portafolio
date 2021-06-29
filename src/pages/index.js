@@ -216,17 +216,14 @@ const IndexPage = () => (
 					<header>
 						<h2>Acerca de mí</h2>
 					</header>
+            <p>
+              Descubrí mi pasion por el desarrollo de Software mientras cursaba la carrera de Ingenieria de sistemas en la  
+              <strong> Universidad Inca Garcilazo de la Vega.</strong>
+              <br />
+              Las tecnologias con las que trabajo las aprendí llevando cursos online , leyendo articulos , retandome constantemente y practicando bastante. 
 
-                    <p>
-                            Descubrí mi pasion por el desarrollo de Software mientras cursaba la carrera de Ingenieria de sistemas en la  
-                            <strong> Universidad Inca Garcilazo de la Vega.</strong>
-                            <br />
-                            Las tecnologias con las que trabajo las aprendí llevando cursos online , leyendo articulos , retandome constantemente y practicando bastante. 
-
-                            Me mantengo en constante aprendizaje porque considero todo el tiempo estan surgiendo equipos con nuevas ideas y mejores formas de poder resolver los retos que nos plantean los diferentes proyectos. 
-                    </p>
-
-
+              Me mantengo en constante aprendizaje porque considero todo el tiempo estan surgiendo equipos con nuevas ideas y mejores formas de poder resolver los retos que nos plantean los diferentes proyectos. 
+            </p>
 				</div>
 			</section>
 
@@ -235,133 +232,129 @@ const IndexPage = () => (
 					<header>
 						<h2>Formación</h2>
 					</header>
-					
-                   <div className="formation_list-container"  >
-					   <section>
-							<span>
-								<h4> <a href="https://www.uigv.edu.pe/wp/" > Universidad Inca Garcilazo de la Vega </a> </h4>
-								<ul className="formation_list" >
-									<li>- Ingenieria de Sistemas</li>
-								</ul>
-							</span>				
-							<span>
-								<h4> <a href="https://platzi.com/" >Platzi </a></h4>
-								<ul className="formation_list">
-									<li>- Programación básica</li>
-									<li>- Git / Github</li>
-									<li>- Sass</li>
-									<li>- Flexbox</li>
-									<li>- Grid Layout</li>
-									<li>- Javascript</li>
-								</ul>
-							</span>
-							<span>
-								<h4> <a href="https://mead.io/" >Andrew Mead</a></h4>
-								<ul className="formation_list" >
-									<li>- Gatsby  (React + Graphql) </li>
-								</ul>
-							</span>
-							<span>
-								<h4> <a href="https://www.udemy.com/" > Udemy</a></h4>
-								<ul className="formation_list">
-									<li>- React + Graphql + Apollo + MongoDB</li>
-								</ul>
-							</span>
-					   </section>
-					   <section>
-							<span>
-								<h4> <a href="https://wesbos.com/" >WesBos</a></h4>
-								<ul className="formation_list" >
-									<li>- Javascript 30</li>
-									<li>- React Beginner</li>
-									<li>- Grid Layout</li>
-								</ul>
-							</span>
-							<span>
-								<h4> <a href="https://carlosazaustre.es/" >Carlos Azaustre</a></h4>
-								<ul className="formation_list" >
-									<li>- React</li>
-									<li>- Redux</li>
-									<li>- React Native</li>
-								</ul>
-							</span>
-						
-							<span>
-								<h4> <a href="https://vueschool.io/" >Vue School</a></h4>
-								<ul className="formation_list">
-									<li>- Vue Mastery Class</li>
-									<li>- Test whit Javascript</li>
-									<li>- Test whit Jest</li>
-								</ul>
-							</span>
-							
-					   </section>
-				   </div>
+            <div className="formation_list-container">
+              <section>
+                <span>
+                  <h4> <a href="https://www.uigv.edu.pe/wp/" > Universidad Inca Garcilazo de la Vega </a> </h4>
+                  <ul className="formation_list" >
+                    <li>- Ingenieria de Sistemas</li>
+                  </ul>
+                </span>				
+                <span>
+                  <h4> <a href="https://platzi.com/" >Platzi </a></h4>
+                  <ul className="formation_list">
+                    <li>- Programación básica</li>
+                    <li>- Git / Github</li>
+                    <li>- Sass</li>
+                    <li>- Flexbox</li>
+                    <li>- Grid Layout</li>
+                    <li>- Javascript</li>
+                  </ul>
+                </span>
+                <span>
+                  <h4> <a href="https://mead.io/" >Andrew Mead</a></h4>
+                  <ul className="formation_list" >
+                    <li>- Gatsby  (React + Graphql) </li>
+                  </ul>
+                </span>
+                <span>
+                  <h4> <a href="https://www.udemy.com/" > Udemy</a></h4>
+                  <ul className="formation_list">
+                    <li>- React + Graphql + Apollo + MongoDB</li>
+                  </ul>
+                </span>
+              </section>
+              <section>
+                <span>
+                  <h4> <a href="https://wesbos.com/" >WesBos</a></h4>
+                  <ul className="formation_list" >
+                    <li>- Javascript 30</li>
+                    <li>- React Beginner</li>
+                    <li>- Grid Layout</li>
+                  </ul>
+                </span>
+                <span>
+                  <h4> <a href="https://carlosazaustre.es/" >Carlos Azaustre</a></h4>
+                  <ul className="formation_list" >
+                    <li>- React</li>
+                    <li>- Redux</li>
+                    <li>- React Native</li>
+                  </ul>
+                </span>						
+                <span>
+                  <h4> <a href="https://vueschool.io/" >Vue School</a></h4>
+                  <ul className="formation_list">
+                    <li>- Vue Mastery Class</li>
+                    <li>- Test whit Javascript</li>
+                    <li>- Test whit Jest</li>
+                  </ul>
+                </span>							
+              </section>
+            </div>
 				</div>
 			</section>
 
-            <section id="skills" className="five">
+      <section id="skills" className="five">
 				<div className="container">
 					<header>
 						<h2>Experiencia</h2>
 					</header>
-                    <p>Estos son algunos de los stacks que he utilizado en el transcurso de los años como developer</p>
-                    <article>
-                        <h4 className="title-agency" >StaffCreativa <span>(Ago - 2016 / Mar -  2018)</span> </h4>
-                        <p  className="subtitle-agency" >Agencia de marketing digital y desarrollo de software.</p>
-                        <div className="techrow" >
-                            <img  src="http://tinyimg.io/i/98xjrS8.png" width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src={stylus}  width="15%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src="http://tinyimg.io/i/QwOeoeu.png" width="30%" />
-                        </div>
-                    </article>
-                    <article>
-                        <h4 className="title-agency">Tismart <span>(May - 2018 / Dic -  2018)</span> </h4>
-                        <p  className="subtitle-agency" >Frontend Developer.</p>
-                        <div className="techrow" >
-                            <h2>Pug</h2>
-                            <span class="icon fa-plus"></span>
-                            <img  src={sass}  width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src="http://tinyimg.io/i/uhirUDt.png"  width="12%" />
-                            <span class="icon fa-plus"></span>
-                            <img  src={nuxt}  width="25%" />
-                        </div>
-                    </article>
-                    <article>
-                        <h4 className="title-agency">GFI Perú - Hundred SAC <span>(Feb - 2019 / Marzo - 2021)</span></h4>
-                        <p  className="subtitle-agency" >Frontend Developer.</p>
-                        <div className="techrow" >
-                            <img  src={angular}  width="12%" />
-                            <span class="icon fa-plus"></span>
-                            <img  src={sass} width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src="http://tinyimg.io/i/4GWKgrj.png"   width="30%"  />
-                        </div>
-                        <div className="techrow" >
-                            <img  src={react}  width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src={gatsby}  width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src={material}  width="12%"  />
-                            <span class="icon fa-plus"></span>
-                            <img  src={graphql}  width="12%" />
-                        </div>
-                    </article>
-                    <article>
-                        <h4 className="title-agency">Otras tecnologias</h4>
-                        <div className="techrow" >
-                            <img  src="http://tinyimg.io/i/s85Mght.png"  width="30%" />
-                            <img  src="http://tinyimg.io/i/p28gP1z.png"  width="20%" />
-                            <img  src="https://i.ibb.co/tC2fXPR/hasura.png"  width="25%" />
-                        </div>
-                        <div className="techrow" >
-                            <img  src="https://i.ibb.co/GP0RbWW/auth0-logo-whitebg.png"  width="25%" />
-                        </div>
-                    </article>
-					
+          <p>Estos son algunos de los stacks que he utilizado en el transcurso de los años como developer</p>
+          <article>
+              <h4 className="title-agency" >StaffCreativa <span>(Ago - 2016 / Mar -  2018)</span> </h4>
+              <p  className="subtitle-agency" >Agencia de marketing digital y desarrollo de software.</p>
+              <div className="techrow" >
+                  <img  src="http://tinyimg.io/i/98xjrS8.png" width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src={stylus}  width="15%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src="http://tinyimg.io/i/QwOeoeu.png" width="30%" />
+              </div>
+          </article>
+          <article>
+              <h4 className="title-agency">Tismart <span>(May - 2018 / Dic -  2018)</span> </h4>
+              <p  className="subtitle-agency" >Frontend Developer.</p>
+              <div className="techrow" >
+                  <h2>Pug</h2>
+                  <span class="icon fa-plus"></span>
+                  <img  src={sass}  width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src="http://tinyimg.io/i/uhirUDt.png"  width="12%" />
+                  <span class="icon fa-plus"></span>
+                  <img  src={nuxt}  width="25%" />
+              </div>
+          </article>
+          <article>
+              <h4 className="title-agency">GFI Perú - Hundred SAC <span>(Feb - 2019 / Marzo - 2021)</span></h4>
+              <p  className="subtitle-agency" >Frontend Developer.</p>
+              <div className="techrow" >
+                  <img  src={angular}  width="12%" />
+                  <span class="icon fa-plus"></span>
+                  <img  src={sass} width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src="http://tinyimg.io/i/4GWKgrj.png"   width="30%"  />
+              </div>
+              <div className="techrow" >
+                  <img  src={react}  width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src={gatsby}  width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src={material}  width="12%"  />
+                  <span class="icon fa-plus"></span>
+                  <img  src={graphql}  width="12%" />
+              </div>
+          </article>
+          <article>
+              <h4 className="title-agency">Otras tecnologias</h4>
+              <div className="techrow" >
+                  <img  src="http://tinyimg.io/i/s85Mght.png"  width="30%" />
+                  <img  src="http://tinyimg.io/i/p28gP1z.png"  width="20%" />
+                  <img  src="https://i.ibb.co/tC2fXPR/hasura.png"  width="25%" />
+              </div>
+              <div className="techrow" >
+                  <img  src="https://i.ibb.co/GP0RbWW/auth0-logo-whitebg.png"  width="25%" />
+              </div>
+          </article>
 				</div>
 			</section>
 
