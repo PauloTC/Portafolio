@@ -209,7 +209,6 @@ const IndexPage = () => (
               Descubrí mi  pasión por el desarrollo de software mientras cursaba la carrera de Ingeniería de Sistemas en la <strong> Universidad Inca Garcilazo de la Vega. </strong>
               <br />
               Las tecnologías con las que trabajo las aprendí llevando cursos online, leyendo artículos, retándome constantemente y practicando bastante. 
-              Descubrí mi pasion por el desarrollo de Software mientras cursaba la carrera de Ingenieria de sistemas en la  
             </p>
 				</div>
 			</section>
